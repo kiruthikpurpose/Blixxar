@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Blixxar** is an intuitive and simplified student portal designed to improve upon the already existing **CAMU** platform. Our goal is to streamline the user experience by providing easy navigation, removing unnecessary tabs, and enhancing usability with modern web practices. The platform is built to provide students with a more user-friendly and efficient interface for accessing critical academic resources, reducing clutter, and focusing on the most relevant features.
+**Blixxar** is an intuitive and simplified student portal designed to improve upon the existing **CAMU** platform. Our goal is to streamline the user experience by providing easy navigation, removing unnecessary tabs, and enhancing usability with modern web practices. Built using **Next.js** and **Tailwind CSS**, the platform offers students a more user-friendly and efficient interface for accessing critical academic resources, reducing clutter, and focusing on the most relevant features.
 
 ---
 
@@ -12,19 +12,19 @@ The current CAMU platform has several limitations:
 - **Complex navigation**: Too many tabs and options lead to a confusing user experience.
 - **Cluttered UI**: The platform includes several irrelevant features that are rarely used, making it harder for users to find the tools they actually need.
 - **Dated Design**: The design does not leverage modern, intuitive web development trends, making it feel outdated and less responsive.
-  
+
 **Blixxar** aims to address these issues by:
 - **Simplified Navigation**: Focus on the most frequently used sections, such as Dashboard, Attendance, Assignments, Timetable, Messages, and Profile.
-- **Responsive Design**: A fully responsive interface that works across all devices (desktop, tablet, and mobile).
-- **Enhanced UI/UX**: Cleaner and more modern design with an emphasis on clarity and ease of use.
-- **Performance**: Reducing unnecessary components, leading to faster load times and a more responsive interface.
+- **Responsive Design**: A fully responsive interface that works seamlessly across all devices (desktop, tablet, and mobile).
+- **Enhanced UI/UX**: A cleaner and more modern design with an emphasis on clarity and ease of use, utilizing Tailwind CSS for rapid styling.
+- **Performance**: Improved load times and responsiveness through optimized code and Next.js features like server-side rendering.
 
 ---
 
 ## Key Features
 
 - **Dashboard**: A concise overview of key information like attendance, upcoming assignments, and unread messages.
-- **Attendance**: Easy access to attendance tracking and stats.
+- **Attendance**: Easy access to attendance tracking and statistics.
 - **Assignments**: List of pending and upcoming assignments with submission details.
 - **Timetable**: Clear view of the student’s class schedule with a focus on simplicity.
 - **Messages**: Messaging feature for easy communication with faculty and peers.
@@ -34,23 +34,23 @@ The current CAMU platform has several limitations:
 
 ## Improvements Plan
 
-Blixxar will be built with a plan to improve on several key areas:
+Blixxar will be built with a focus on improving several key areas:
 
 ### 1. **Navigation Redesign**
    - **Before**: CAMU has an overcomplicated navigation structure with too many tabs and redundant sections.
    - **Blixxar**: A minimalist approach focusing only on six essential tabs: Dashboard, Attendance, Assignments, Timetable, Messages, and Profile.
-   
+
 ### 2. **UI/UX Overhaul**
    - **Before**: The interface is dated, and users struggle with finding relevant information.
-   - **Blixxar**: Cleaner, modern look with easy-to-read typography, improved color contrast, and a more intuitive layout that prioritizes ease of access.
+   - **Blixxar**: A cleaner, modern look with easy-to-read typography, improved color contrast, and a more intuitive layout that prioritizes ease of access.
 
 ### 3. **Optimized Performance**
    - **Before**: Slow load times due to unnecessary scripts and unused features.
-   - **Blixxar**: Code optimization with only necessary components, resulting in faster load times and smoother user experience.
+   - **Blixxar**: Leveraging Next.js for optimized performance with only necessary components, resulting in faster load times and smoother user experience.
 
 ### 4. **Responsive Design**
    - **Before**: Limited optimization for mobile devices.
-   - **Blixxar**: Fully responsive and functional across all screen sizes, including mobile, tablet, and desktop.
+   - **Blixxar**: Fully responsive and functional across all screen sizes, utilizing Tailwind CSS for easy styling.
 
 ### 5. **Enhanced Forms**
    - **Before**: Complex and unorganized forms for messaging and profile updates.
@@ -64,7 +64,7 @@ Blixxar will be built with a plan to improve on several key areas:
 ## Structured Development Plan
 
 ### **Phase 1: Initial Frontend Development**
-- Set up a basic structure using HTML, CSS, and JavaScript for the following tabs:
+- Set up a basic structure using Next.js and Tailwind CSS for the following tabs:
   - Dashboard
   - Attendance
   - Assignments
@@ -72,7 +72,6 @@ Blixxar will be built with a plan to improve on several key areas:
   - Messages
   - Profile
 - Responsive layout ensuring it works well on desktop, tablet, and mobile.
-- Add placeholders for form submissions and data display.
 
 ### **Phase 2: UI/UX Improvements**
 - Revamp the visual design for better user experience:
@@ -81,7 +80,7 @@ Blixxar will be built with a plan to improve on several key areas:
   - Clear, easy-to-navigate interface
 
 ### **Phase 3: Basic Functionalities**
-- Implement basic JavaScript to handle navigation between sections.
+- Implement React components to handle navigation between sections.
 - Use demo data to display attendance, assignments, and other widgets.
 
 ### **Phase 4: Simulated Backend with Static Data**
@@ -98,8 +97,8 @@ Blixxar will be built with a plan to improve on several key areas:
 ## Tech Stack
 
 - **Frontend**: 
-  - HTML5, CSS3, JavaScript (for dynamic behavior)
-  - Responsive design for cross-device compatibility
+  - Next.js for server-side rendering and optimized performance
+  - Tailwind CSS for rapid and responsive styling
 - **Simulated Backend** (Phase 4):
   - Static JSON data for demonstration purposes
 - **Future Backend Enhancements**:
@@ -119,6 +118,15 @@ Blixxar will be built with a plan to improve on several key areas:
    cd Blixxar
    ```
 
-3. **Open `index.html` in your browser**:
-   You can open the `index.html` file directly in your browser to run the app locally, or use a tool like **Live Server** if you're using a code editor like VSCode.
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
+4. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser**:
+   Visit `http://localhost:3000` to run the app locally.
