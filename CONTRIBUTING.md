@@ -1,6 +1,6 @@
-# Contributing to blixxar
+# Contributing to Blixxar
 
-First of all, thank you for considering contributing to **blixxar**! This document outlines the process for contributing code, suggestions, bug fixes, and other improvements to the project.
+First of all, thank you for considering contributing to **Blixxar**! This document outlines the process for contributing code, suggestions, bug fixes, and other improvements to the project.
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ Before making any changes, **fork** the repository to your own GitHub account. Y
 Once you've forked the repository, clone it to your local machine:
 
 ```bash
-git clone https://github.com/kiruthikpurpose/blixxar.git
+git clone https://github.com/kiruthikpurpose/Blixxar.git
 ```
 
 Replace `your-username` with your GitHub username.
@@ -62,7 +62,7 @@ git push origin your-branch-name
 
 ### 8. Create a Pull Request
 
-Once your branch is pushed, go to the original **blixxar** repository on GitHub, and you'll see a button to create a **Pull Request** (PR). Click it and fill in the details about your contribution. 
+Once your branch is pushed, go to the original **Blixxar** repository on GitHub, and you'll see a button to create a **Pull Request** (PR). Click it and fill in the details about your contribution. 
 
 Please provide:
 - A **title** that summarizes your changes.
@@ -78,7 +78,7 @@ Please follow our [Code of Conduct](CODE_OF_CONDUCT.md) when contributing. Be re
 
 ## Contribution Types
 
-Here are some common ways you can contribute to blixxar:
+Here are some common ways you can contribute to Blixxar:
 
 1. **Bug Fixes**: If you find a bug, feel free to submit a pull request to fix it. Make sure to describe the issue in your PR.
    
